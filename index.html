@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title>trump_picker</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
+    <style>
+      button {
+        width: 200px;
+        height: 70px;
+        font-size: 30px;
+      }
+      input[type="text"] {
+        width: 700px;
+        font-size: 30px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div>
+      <table border="1" id="trumps">
+
+      </table>
+    </div>
+    <div id="forms">
+      <input type="text" id="string" readonly />
+      <br/>
+      <button id="delete">1件削除</button>
+      <button id="clear">クリア</button>
+    </div>
+    <div>
+      <table border="1">
+        <thead>
+          <tr>
+            <th colspan="2">Revin</th>
+            <th colspan="2">チョーサ隊</th>
+            <th colspan="5">ボード</th>
+          </tr>
+        </thead>
+        <tbody id="viewer">
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
